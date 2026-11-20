@@ -81,6 +81,23 @@
         color: black;
         transform: scale(1.1);
       }
+      .btn1 {
+        display: inline-block;
+        background-color: black;
+        color: gold;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        border: 2px solid gold;
+        font-size: 20px;
+        transition: 0.3s;
+      }
+
+      .btn1:hover {
+        background-color: gold;
+        color: black;
+        transform: scale(1.1);
+      }
     </style>
   </head>
 
@@ -98,18 +115,19 @@
         <p>
           I create modern, beautiful and powerful digital experiences.
           <br />
-          I believe great design is not just about appearance —
+          I believe great design is not just about appearance
           <br />
           it's about creating something unforgettable.
         </p>
       </div>
-
-      <img
-        class="photo"
-        src="./images/khalid.jpg"
-        alt="My photo"
-        title="This is me"
-      />
+      <a href="/images/khalid.jpg">
+        <img
+          class="photo"
+          src="./images/khalid.jpg"
+          alt="My photo"
+          title="This is me"
+        />
+      </a>
       <a
         class="btn"
         href="./project.html"
@@ -118,6 +136,13 @@
       >
         Project
       </a>
+      <a
+        class="btn1"
+        href="education.html"
+        title="this take you to the education page"
+        target="_blank"
+        >Education</a
+      >
     </div>
   </body>
 </html>

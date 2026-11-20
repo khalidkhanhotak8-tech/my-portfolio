@@ -14,30 +14,115 @@
       .code {
         width: 500px;
       }
-      a {
+      .title {
+        font-size: 80px;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        text-align: center;
+        color: gold;
+      }
+      #hr {
+        background-color: black;
+        height: 8px;
+      }
+
+      .btn {
         display: inline-block;
         color: gold;
+        text-decoration: none;
+        font-size: 40px;
+        margin-right: 1400px;
+        border: 2px solid gold;
+        background-color: rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 30px 50px;
+        transition: 0.3s;
+      }
+      .btn:hover {
+        background-color: gold;
+        color: black;
+        transform: scale(1.1);
+      }
+      .btn1 {
+        display: inline-block;
+        color: gold;
+        font-size: 40px;
         text-decoration: none;
         border: 2px solid gold;
         background-color: rgb(0, 0, 0);
         border-radius: 10px;
-        padding: 15px 30px;
+        padding: 30px 50px;
         transition: 0.3s;
       }
-      a:hover {
+      .btn1:hover {
         background-color: gold;
         color: black;
+        transform: scale(1.1);
+      }
+      .img {
+        display: inline-block;
+        transition: 0.3s;
+      }
+      .img:hover {
+        transform: scale(1.1);
+      }
+      .img1 {
+        display: inline-block;
+        transition: 0.3s;
+      }
+      .img1:hover {
+        transform: scale(1.1);
+      }
+      .img2 {
+        display: inline-block;
+        transition: 0.3s;
+      }
+      .img2:hover {
+        transform: scale(1.1);
+      }
+      .img3 {
+        display: inline-block;
+        transition: 0.3s;
+      }
+      .img3:hover {
         transform: scale(1.1);
       }
     </style>
   </head>
   <body>
-    <h1>Project i made it</h1>
-    <img src="./images/project.jpg" alt="about project image" />
-    <img src="./images/project1.png" alt="about project image" />
-    <img class="code" src="./images/project2.jpg" alt="about project image" />
-    <img src="./images/project3.jpg" alt="about project image" />
-    <a href="index.html">Home</a>
-    <a href="education.html" target="_blank">Education</a>
+    <h1 class="title">Project i made it</h1>
+    <hr id="hr" />
+    <a
+      class="img"
+      title="view photo"
+      target="_blank"
+      href="/images/project.jpg"
+    >
+      <img src="./images/project.jpg" alt="about project image" />
+    </a>
+    <a
+      class="img1"
+      title="view photo"
+      target="_blank"
+      href="/images/project1.png"
+    >
+      <img src="./images/project1.png" alt="about project image" />
+    </a>
+    <a class="img2" title="view photo" href="/images/project2.jpg">
+      <img class="code" src="./images/project2.jpg" alt="about project image" />
+    </a>
+    <a class="img3" title="view photo" href="/images/project3.jpg">
+      <img src="./images/project3.jpg" alt="about project image" />
+    </a>
+
+    <a class="btn" href="index.html" title="this takes you to home page"
+      >Home</a
+    >
+    <a
+      class="btn1"
+      href="education.html"
+      title="this takes you to education page"
+      target="_blank"
+      >Education</a
+    >
   </body>
 </html>
