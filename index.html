@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khalid Hotak</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: black;
+        font-family: Arial, sans-serif;
+        padding: 40px 6%;
+      }
+
+      .box h6 {
+        color: gold;
+        font-size: 25px;
+        opacity: 0.7;
+        margin-bottom: 35px;
+      }
+
+      .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+      }
+
+      #hero {
+        color: white;
+        font-size: clamp(65px, 7vw, 125px);
+        line-height: 1.1;
+      }
+
+      #hero span {
+        color: gold;
+      }
+
+      #hero mark {
+        background: none;
+        color: white;
+      }
+
+      .box p {
+        color: rgb(133, 133, 138);
+        font-size: 20px;
+        line-height: 1.8;
+        margin-top: 25px;
+      }
+
+      .photo {
+        width: 400px;
+        height: 300px;
+        object-fit: cover;
+        border: 4px solid gold;
+        border-radius: 25px;
+      }
+      .photo:hover {
+        box-shadow: 0 0 55px gold;
+      }
+      .btn {
+        display: inline-block;
+        background-color: black;
+        color: gold;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        border: 2px solid gold;
+        font-size: 20px;
+        transition: 0.3s;
+      }
+
+      .btn:hover {
+        background-color: gold;
+        color: black;
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="hero-section">
+      <div class="box">
+        <h6>💥 Welcome to my website</h6>
+
+        <h1 id="hero">
+          I'm <br />
+          <span>Khalid Hotak</span>
+          <mark> <br />Creative <br />Developer. </mark>
+        </h1>
+
+        <p>
+          I create modern, beautiful and powerful digital experiences.
+          <br />
+          I believe great design is not just about appearance —
+          <br />
+          it's about creating something unforgettable.
+        </p>
+      </div>
+
+      <img
+        class="photo"
+        src="./images/khalid.jpg"
+        alt="My photo"
+        title="This is me"
+      />
+      <a
+        class="btn"
+        href="./project.html"
+        target="_blank"
+        title="this takes you to the projects page"
+      >
+        Project
+      </a>
+    </div>
+  </body>
+</html>
